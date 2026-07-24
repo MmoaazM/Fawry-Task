@@ -24,7 +24,7 @@ public class Fine {
     public List<Violation> getViolations() { return violations; }
 
     public void print() {
-        System.out.println("Traffic fine for car " + plateNumber);
+        System.out.println("Traffic fine for "+ plateNumber);
         System.out.println("Total amount: "+this.totalAmount+"EGP");
         System.out.println("Violations:");
         for (Violation v : violations) {
